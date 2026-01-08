@@ -112,6 +112,7 @@ theme: stellar
 deploy:
   type: "git"
   repo: https://github.com/dongrentianyu/dead-paper-hexo-stellar
+  branch: [gh-pages]
 inject:
   head:
     - <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/zqfs/dist/ZhuqueFangsong-Regular/result.css' />
