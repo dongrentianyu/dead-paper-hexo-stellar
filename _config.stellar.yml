@@ -17,26 +17,15 @@ logo:
   avatar: "[{config.avatar}](/about/)" # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
   title: "[{config.title}](/)" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   subtitle: "文字1 | 文字2" # '文字1 | 文字2' (鼠标放上去会切换到文字2)
-style:
-  leftbar:
-    background-image: url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.13/image/sidebar-bg1@small.jpg)
-    blur-px: 100px # 模糊半径
-    blur-bg: var(--bg-a60) # 模糊颜色
-    linear-gradient: (to left top, blue, red);
+
 footer:
   social:
     github:
       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/08a41b181ce68.svg"/>'
       url: https://
-    music:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/3845874.svg"/>'
-      url: https://
-    unsplash:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/3616429.svg"/>'
-      url: https://
-    comments:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/942ebbf1a4b91.svg"/>'
-      url: https://
+  content: | # 支持 Markdown 格式
+    本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
+
 ######## Tag Plugins ########
 tag_plugins:
   # {% image %}
@@ -70,3 +59,9 @@ site_tree:
     rightbar: timeline
     nav_tabs:
       # 'more': https://github.com/xaoxuu
+style:
+  leftbar:
+    background-image: url(https://w.wallhaven.cc/full/57/wallhaven-571je1.jpg)
+  prefers_theme: system
+  font-family:
+    body: "'Zhuque Fangsong (technical preview)', system-ui, 'Microsoft Yahei', 'Segoe UI', Arial, sans-serif"
