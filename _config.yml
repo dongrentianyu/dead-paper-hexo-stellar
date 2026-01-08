@@ -110,7 +110,8 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repo: https://github.com/dongrentianyu/dead-paper-hexo-stellar
 inject:
   head:
     - <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/zqfs/dist/ZhuqueFangsong-Regular/result.css' />
