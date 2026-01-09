@@ -12,8 +12,8 @@ share: true
 
 menu_id: notes
 # 笔记列表页的左/右侧栏
-# leftbar: [tagtree, recent]
+leftbar: [tagtree, recent]
 # rightbar: []
 # 笔记页的左/右侧栏
-# note_leftbar: [tagtree, recent]
-# note_rightbar: [toc]
+note_leftbar: [tagtree, recent]
+note_rightbar: [toc]

@@ -14,7 +14,7 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 4 # 一行多少个
+  columns: 3 # 一行多少个
   items:
     # 可按照自己需求增加，符合以下格式即可W
     # id: 页面中高亮的 menu_id
@@ -32,11 +32,6 @@ menubar:
       icon: solar:notebook-bookmark-bold-duotone
       title: 文档
       url: /wiki/TiddlyWiki
-    - id: explore
-      theme: "#FA6400"
-      icon: solar:planet-bold-duotone
-      title: 探索
-      url: /explore/
     - id: social
       theme: "#F44336"
       icon: solar:chat-square-like-bold-duotone
@@ -132,7 +127,7 @@ notebook:
   auto_excerpt: 128
   # 可以为某个 tag 设定图标（显示在标签树中）。
   tagcons:
-    "": solar:hashtag-square-bold
+    test: solar:hashtag-square-bold
   # 每页显示多少篇笔记。0 表示不分页，null 则 fallback 到 hexo 的配置。
   # 可以在笔记本 yaml 的 per_page 字段中覆盖此参数。
   per_page: null
@@ -155,7 +150,7 @@ article:
   # 文章类型，决定布局风格，可以在 front-matter/topic/wiki 中覆盖此参数
   type: tech # tech: 默认技术类文章, story: 图文类文章，文字和段落间增距大
   # 缩进两个文字宽度，适合文字类博客，可以在 front-matter/topic/wiki 中覆盖此参数
-  indent: true # true / false
+  indent: false # true / false
   # 封面图宽高比
   cover_ratio: 2
   # 文章内横幅宽高比
