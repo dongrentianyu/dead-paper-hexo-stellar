@@ -1,0 +1,4 @@
+name: Movie # 在面包屑导航上会显示较短的名字
+title: Movie - 你还看电影吗？ # 在列表页会显示完整的专栏标题
+description: 总要看点电影吧，不然世界太无聊了。
+order_by: -date # 默认是按发布日期倒序排序

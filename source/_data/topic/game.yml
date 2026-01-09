@@ -1,0 +1,4 @@
+name: Game # 在面包屑导航上会显示较短的名字
+title: Game - 游戏，生命的压缩包 # 在列表页会显示完整的专栏标题
+description: 压缩了生命，融入了风景。
+order_by: -date # 默认是按发布日期倒序排序
