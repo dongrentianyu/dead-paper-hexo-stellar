@@ -1,0 +1,43 @@
+name: TiddlyWiki
+title: TiddlyWiki
+subtitle: "TiddlyWiki - 无敌的笔记软件"
+tags: TiddlyWiki
+icon: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
+cover: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
+coverpage: true # 默认是 true
+description: TiddlyWiki - 无敌的笔记软件。
+repo: dongrentianyu/dead-paper-hexo-stellar
+search:
+  filter: /wiki/TiddlyWiki/
+  placeholder: 在 TiddlyWiki 中搜索...
+leftbar:
+  - tree
+  - timeline_stellar_releases
+  - related
+base_dir: /wiki/TiddlyWiki/
+tree:
+  "快速开始":
+    - index
+    - examples
+    - releases
+  "基本使用":
+    - theme-settings
+    - pages
+    - sidebar
+    - tag-plugins
+    - tag-plugins/express
+    - tag-plugins/data
+    - tag-plugins/container
+    - comments
+  "文档系统":
+    - wiki-settings
+  "进阶玩法":
+    - widgets
+    - advanced-settings
+    - notes
+  "技术支持":
+    - articles
+    - todo
+    - contributors
+license: ""
+share: false
