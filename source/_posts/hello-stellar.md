@@ -1,6 +1,7 @@
 ---
 title: Hello stellar
 banner: /images/post/stellar.png
+cover: /images/post/stellar.png
 ---
 
 ## stellar
