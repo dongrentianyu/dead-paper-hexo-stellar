@@ -1,12 +1,9 @@
 ---
 title: PKM
 banner: https://gcore.jsdelivr.net/gh/cdn-x/xaoxuu@main/posts/20250706150531375.jpg
-categories: [设计开发, iOS开发]
-tags: [iOS, 心率]
+categories:
+tags:
 topic: note-system
-references:
-  - "[心跳之旅—💗—iOS用手机摄像头检测心率(PPG)](https://punmy.cn/2016/07/28/15231176397746.html)"
-  - "[PPG光电容积脉搏波描记法技术概况](https://www.jianshu.com/p/695c131abfa5)"
 ---
 
 ## 这是一篇文章

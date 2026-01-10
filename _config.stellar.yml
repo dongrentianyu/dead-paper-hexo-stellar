@@ -14,7 +14,7 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 3 # 一行多少个
+  columns: 4 # 一行多少个
   items:
     # 可按照自己需求增加，符合以下格式即可W
     # id: 页面中高亮的 menu_id
@@ -32,6 +32,11 @@ menubar:
       icon: solar:notebook-bookmark-bold-duotone
       title: 文档
       url: /wiki/TiddlyWiki
+    - id: notebooks
+      theme: "#3DC550"
+      icon: solar:documents-bold-duotone
+      title: 文档
+      url: /notebooks
     - id: social
       theme: "#F44336"
       icon: solar:chat-square-like-bold-duotone
@@ -164,20 +169,12 @@ article:
     "探索号": "#f44336"
   license: ""
 
-search:
-  service: local_search # local_search, algolia_search, todo...
-  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
-    field: all # post, page, all
-    path: /search.json # 搜索文件存放位置
-    content: true # 是否搜索内容
-    skip_search: # 指定 path 中的内容不被搜索。
-
 ######## Footer ########
 footer:
   social:
     github:
       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
-    #   url: /
+      url: https://github.com/dongrentianyu/dead-paper-hexo-stellar
     # music:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
     #   url: /
@@ -187,7 +184,6 @@ footer:
 
   content: | # 支持 Markdown 格式
     本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
-  # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
 
 ######## Tag Plugins ########
 tag_plugins:
@@ -339,7 +335,7 @@ style:
     code: 85% # 相较于其所在行的文本大小，建议用百分比
     codeblock: 0.8125rem # 13px
   font-family:
-    body: 'system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
+    body: "'system-ui', 'Microsoft Yahei', 'Segoe UI', Arial, sans-serif' "
     code: "Menlo, Monaco, Consolas, system-ui, monospace, sans-serif"
     codeblock: "Menlo, Monaco, Consolas, system-ui, monospace, sans-serif"
   text-align: left
