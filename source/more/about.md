@@ -1,6 +1,7 @@
 ---
 menu_id: more
-title: 关于
+wiki: more
+title: 关于我
 ---
 
 ## 关于一切的一切

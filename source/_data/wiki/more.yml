@@ -1,0 +1,17 @@
+name: 更多
+title: 更多
+icon: # 列表页图标
+cover: # 封面页大图
+coverpage: false
+base_dir: /more/
+tree:
+  "关于":
+    - index
+    - about
+  "为什么":
+    - why-blog
+    - why-stellar
+  "推荐":
+    - now
+    - recommend
+    - links

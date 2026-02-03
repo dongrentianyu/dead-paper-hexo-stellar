@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Dead Paper
+title: Bones
 subtitle: "Dead Paper,Dead Read"
 description: ""
 keywords:
@@ -15,10 +15,10 @@ avatar: /images/favicon.ico
 # favicon: /images/favicon.ico
 
 # 或多种尺寸适配
-favicon:
-  icon16: /images/icons/icon-192.png
-  icon32: /images/icons/icon-512.png
-  apple_touch_icon: /images/icons/apple-touch-icon.png
+# favicon:
+#   icon16: /images/icons/icon-192.png
+#   icon32: /images/icons/icon-512.png
+#   apple_touch_icon: /images/icons/apple-touch-icon.png
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
