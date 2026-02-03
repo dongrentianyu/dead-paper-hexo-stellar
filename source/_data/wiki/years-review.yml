@@ -1,0 +1,23 @@
+name: 年终总结
+title: 年终总结
+subtitle: "年终总结 - 无敌的笔记软件"
+tags:
+icon: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
+cover: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
+coverpage: true # 默认是 true
+description: TiddlyWiki - 无敌的笔记软件。
+repo: dongrentianyu/dead-paper-hexo-stellar
+search:
+  filter: /wiki/years-review/
+  placeholder: 在 TiddlyWiki 中搜索...
+leftbar:
+  - tree
+  - timeline_stellar_releases
+  - related
+base_dir: /wiki/years-review/
+tree:
+  "快速开始":
+    - "2025"
+    - "2026"
+license: ""
+share: false
