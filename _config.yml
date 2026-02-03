@@ -10,15 +10,11 @@ keywords:
 author: 马不前
 language: zh-CN
 timezone: "Asia/Shanghai"
-avatar: /images/favicon.ico
+avatar: https://api.iconify.design/game-icons:dead-eye.svg
 # 网站图标
-# favicon: /images/favicon.ico
-
-# 或多种尺寸适配
-# favicon:
-#   icon16: /images/icons/icon-192.png
-#   icon32: /images/icons/icon-512.png
-#   apple_touch_icon: /images/icons/apple-touch-icon.png
+# favicon: /images/favicon.ico /images/favicon.ico
+# 或多种尺寸适配 /favicon.ico
+favicon: https://api.iconify.design/game-icons:dead-eye.svg
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -111,7 +107,7 @@ theme: stellar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repo: https://github.com/dongrentianyu/dead-paper-hexo-stellar
+  repo: https://github.com/dongrentianyu/bones
   branch: [gh-pages]
 inject:
   head:

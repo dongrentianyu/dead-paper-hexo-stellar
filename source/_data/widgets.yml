@@ -2,5 +2,18 @@ welcome:
   layout: markdown
   title: ""
   content: |
-    欢迎使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题，下面是您的入门指南，祝您使用愉快！
+    我是天空
+    降下对我的惩罚
+    你遗传给我的疾病
+    在风中弑杀我的黑夜
   src: "" # 可以设置外部 md 文件链接
+wiki-link-list:
+  layout: linklist
+  columns: 1
+  items:
+    - title: TiddlyWiki
+      url: /wiki/TiddlyWiki/
+    - title: 族长的秋天
+      url: /wiki/the-autumn-of-the-patriarch
+    - title: 年终总结
+      url: /wiki/years-review/

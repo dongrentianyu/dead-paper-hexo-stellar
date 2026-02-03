@@ -1,7 +1,8 @@
 name: 更多
 title: 更多
-icon: # 列表页图标
-cover: # 封面页大图
+subtitle: "应该写一写"
+icon: https://api.iconify.design/line-md:cog-loop.svg # 列表页图标
+cover: https://api.iconify.design/line-md:cog-loop.svg # 封面页大图
 coverpage: false
 base_dir: /more/
 tree:

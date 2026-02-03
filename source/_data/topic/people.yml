@@ -2,3 +2,4 @@ name: People # 在面包屑导航上会显示较短的名字
 title: People - 该怎么记忆哪些人 # 在列表页会显示完整的专栏标题
 description: 对于他们我们要说什么，我们能说什么，以及我们什么不能说。
 order_by: -date # 默认是按发布日期倒序排序
+icon: https://api.iconify.design/arcticons:basic-fit.svg

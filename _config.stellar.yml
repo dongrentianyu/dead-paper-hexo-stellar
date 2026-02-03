@@ -29,7 +29,7 @@ menubar:
     - id: wiki
       theme: "#3DC550"
       title: 文档
-      url: /wiki/TiddlyWiki
+      url: /wiki/
     - id: notebooks
       theme: "#3D5050"
       title: 笔记
@@ -62,9 +62,11 @@ site_tree:
     menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 topic 的页面默认使用这里配置的 menu_id
   # 文档列表页配置
   index_wiki:
+    icon: https://api.iconify.design/streamline-flex-color:production-belt-time.svg
+    cover: https://api.iconify.design/streamline-flex-color:production-belt-time.svg
     base_dir: wiki # 只影响自动生成的页面路径
     menu_id: wiki # 未在 front-matter 中指定 menu_id 时，layout 为 wiki 的页面默认使用这里配置的 menu_id
-    leftbar: tree # for wiki
+    leftbar: wiki-link-list,tree # for wiki
     rightbar:
     nav_tabs:
       # 'more': https://github.com/xaoxuu
@@ -73,7 +75,7 @@ site_tree:
   index_more:
     base_dir: more
     menu_id: more
-    leftbar: welcome,related, recent
+    leftbar: welcome,related
   post:
     menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
     leftbar: related, recent # for pages using 'layout:post'
@@ -171,17 +173,16 @@ article:
 
 ######## Footer ########
 footer:
-  social:
-    github:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
-      url: https://github.com/dongrentianyu/dead-paper-hexo-stellar
-    # music:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
-    #   url: /
-    # unsplash:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3616429.svg"/>'
-    #   url: /
-
+  #social:
+  #github:
+  #icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+  #url: https://github.com/dongrentianyu/bones
+  # music:
+  #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
+  #   url: /
+  # unsplash:
+  #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3616429.svg"/>'
+  #   url: /
   content: | # 支持 Markdown 格式
     本站由 [{author.name}](/) 使用 [{theme.name} {theme.version}]({theme.tree}) 主题创建。
 

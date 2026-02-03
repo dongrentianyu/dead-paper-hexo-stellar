@@ -1,5 +1,5 @@
 ---
-wiki: the-​autumn-of-the-patriarch
+wiki: the-patriarch
 title: "族长的秋天简介"
 ---
 

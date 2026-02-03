@@ -2,8 +2,8 @@ name: 年终总结
 title: 年终总结
 subtitle: "今年值得纪念什么"
 tags:
-icon: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
-cover: https://res.xaox.cc/gh/cdn-x/wiki@main/stellar/icon.svg
+icon: https://api.iconify.design/vaadin:hourglass-start.svg
+cover: https://api.iconify.design/vaadin:hourglass-start.svg
 coverpage: true # 默认是 true
 description: 不要把年终总结当成任务，而要把它当成每年的记录
 search:
@@ -16,6 +16,7 @@ leftbar:
 base_dir: /wiki/years-review/
 tree:
   "快速开始":
+    - index
     - "2025"
     - "2026"
 license: ""
